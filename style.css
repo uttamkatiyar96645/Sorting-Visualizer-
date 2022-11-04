@@ -1,0 +1,78 @@
+body {
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+#heading {
+    color: rgb(183, 255, 239);
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+}
+
+section #array_container {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex: 1;
+    max-width: 50%;
+    height: 70vh;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0.3rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+#info1, #info2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    max-width: 25%;
+}
+
+#algo_heading, #performance_heading {
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+}
+
+.performance, #algo_description {
+    margin: 1.5rem;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#reset_div {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: large;
+    font-weight: bold;
+}
